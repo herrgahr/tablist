@@ -1,0 +1,44 @@
+/**
+ * Copyright Thomas Gahr 2018
+ * 
+ * Distributed under the Apache License 2.0
+ * See LICENSE.txt for details.
+ * 
+ * 
+ * So yeah, I keep writing these and still end up with ugly
+ * .html. But hey, at least I'm trying!
+ */
+
+body {
+  background: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+div {
+  font-family: sans-serif;
+  font-size: 10pt;
+  margin-top: 1px;
+}
+
+#tab-list {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+}
+
+#download {
+  font-weight: bold;
+  background: gray;
+  border-radius: 2px;
+  display: block;
+  font-family: sans-serif;
+  font-size: 10pt;
+  width: 100%;
+  margin-top: 1px;
+}
+
+#download:enabled {
+  background: steelblue;
+  color: white;
+}

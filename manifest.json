@@ -1,0 +1,14 @@
+{
+  "name": "Tab List",
+  "version": "1.0",
+  "description": "Adds a browser action that allows you to download an .html with links to all tabs of the current window. Some sort of arcane bookmarking.",
+  "permissions": [
+    "tabs", "chrome://favicon/*", "downloads"
+  ],
+  "browser_action": {
+      "default_title": "Tabbidy tab-tab",
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
