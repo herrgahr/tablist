@@ -1,5 +1,7 @@
 # tablist
 
+[Chrome Web Store link](https://chrome.google.com/webstore/detail/tab-list/enmppcfapkhgooajfhhemehedijggnnh)
+
 This is a simple chrome extension that I created because I often end up with dozens of open tabs that I want to read later / keep for later reference.
 
 The extension shows a list of all open tabs **in the current window** and allows the user to download an .html with links to all URLs. The .html has the favicons of the tabs embedded as a data-url so no network connection is needed for still being somewhat pleasing to the eye.
