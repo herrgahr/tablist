@@ -38,17 +38,8 @@ function enableDownload(tabs) {
   var download = document.querySelector("#download");
   var outputDiv = document.getElementById("tab-list");
   var res = "<!doctype html>\n<html>\n";
-  //add inline script to open all tabs
-    res += "<head><script>\n"
-    res += "function openAll() {\n";
-    tabs.forEach(function(tab){
-      res += "window.open('" + tab.url + "','_blank');\n";
-    });
-    res += "};\n";
-    res += "</script></head>\n";
   res += "<body>\n";
   res += outputDiv.innerHTML;
-  res += "<br><a href='javascript:openAll()'>Open all</a>\n";
   res += "</body>\n</html>\n\n";
   const utf8 = unescape(encodeURIComponent(res));
   var b64 = "data:application/octet-stream;charset=utf8;base64," + btoa(utf8);
